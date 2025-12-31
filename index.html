@@ -1,21 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>NQT Labs</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; }
-        h1 { color: #333; }
-        .app-link { display: block; margin: 20px; font-size: 18px; text-decoration: none; color: #0066cc; }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NQT Labs - Mobile Applications</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Welcome to NQT Labs</h1>
-    <p>Mobile Application Development</p>
-    <hr>
-    <h3>Our Apps:</h3>
-    <a class="app-link" href="#">1. Jars Master: Money Manager</a>
-    <a class="app-link" href="#">2. Circo Puzzle: Connect & Light</a>
-    <hr>
-    <p>Contact: nqtlabs@gmail.com</p>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">NQT Labs</a>
+            <ul class="nav-links">
+                <li><a href="#apps">Our Apps</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Building Apps that Matter</h1>
+            <p>Simple, effective, and fun mobile experiences for everyone.</p>
+            <a href="#apps" class="btn btn-primary">Explore Apps</a>
+        </div>
+    </header>
+
+    <section id="apps" class="apps-section">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            
+            <div class="app-grid">
+                
+                <div class="app-card">
+                    <div class="app-icon" style="background-color: #4CAF50;">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+                    <div class="app-info">
+                        <h3>Jars Master: Money Manager</h3>
+                        <p class="app-desc">Master your personal finance with the famous 6 Jars method. Track expenses, save money, and achieve financial freedom.</p>
+                        <div class="app-tags">
+                            <span>Finance</span>
+                            <span>Productivity</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">Coming Soon on Google Play</a>
+                    </div>
+                </div>
+
+                <div class="app-card">
+                    <div class="app-icon" style="background-color: #FF9800;">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                    </div>
+                    <div class="app-info">
+                        <h3>Circo Puzzle</h3>
+                        <p class="app-desc">Connect the circuits, light up the bulbs. A challenging puzzle game to test your logic and brain power.</p>
+                        <div class="app-tags">
+                            <span>Puzzle</span>
+                            <span>Brain Game</span>
+                        </div>
+                        <a href="#" class="btn btn-outline">Available on Google Play</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <h3>NQT Labs</h3>
+                <p>Creating digital solutions since 2024.</p>
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-envelope"></i> contact@nqtlabs.com (Thay email bạn)</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 NQT Labs. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
