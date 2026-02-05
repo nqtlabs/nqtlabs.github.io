@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - JarsMaster</title>
+    <meta name="description" content="Privacy Policy for JarsMaster application.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #4F46E5;
+            /* Indigo 600 */
+            --text-color: #1F2937;
+            /* Gray 800 */
+            --bg-color: #F9FAFB;
+            /* Gray 50 */
+            --section-bg: #FFFFFF;
+            --heading-color: #111827;
+            /* Gray 900 */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #E5E7EB;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #6B7280;
+            font-size: 0.9rem;
+        }
+
+        article {
+            background: var(--section-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        h3 {
+            color: var(--heading-color);
+            font-size: 1.25rem;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.875rem;
+            color: #6B7280;
+        }
+
+        /* Dark Mode Support (Optional) */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #818CF8;
+                --text-color: #F3F4F6;
+                --bg-color: #111827;
+                --section-bg: #1F2937;
+                --heading-color: #F9FAFB;
+            }
+
+            .container {
+                border-color: #374151;
+            }
+
+            header {
+                border-bottom-color: #374151;
+            }
+
+            article {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>JarsMaster</h1>
+            <p style="font-size: 1.25rem; color: #4B5563; margin-top: 0;">Privacy Policy</p>
+            <p class="last-updated">Last Updated: 06/02/2026</p>
+        </header>
+
+        <article>
+            <p>Welcome to <strong>JarsMaster</strong>. We are committed to protecting your personal information and
+                respecting your privacy. This policy explains how we collect, use, and safeguard your data when you use
+                the JarsMaster application.</p>
+
+            <h2>1. Data We Collect</h2>
+            <p>JarsMaster operates on the principle "Your data belongs to you". We collect only the minimum information
+                necessary for the app to function:</p>
+            <ul>
+                <li><strong>Account Information (Optional):</strong> When you enable Cloud Sync, we use your Google
+                    Account (Google Sign-In) for authentication. We only store your User ID and Email to identify your
+                    data on the system.</li>
+                <li><strong>Financial Data:</strong> Transaction records, jar balances (NECC, PLAY, FFA, etc.), and
+                    asset/liability data. This data is stored <strong>locally on your device</strong> and is only
+                    uploaded to our secure Cloud server if you *actively* enable synchronization.</li>
+                <li><strong>Usage Data:</strong> Anonymous information about how you use the app (e.g., frequency of
+                    opening the app, crash reports) via Google Firebase Analytics to help us improve product quality.
+                </li>
+                <li><strong>Advertising Identifiers:</strong> If you use the free version, Google AdMob may use your
+                    device's advertising ID to serve relevant ads (unless you have disabled this in your device
+                    settings).</li>
+            </ul>
+
+            <h2>2. How We Use Data</h2>
+            <p>We use the collected information to:</p>
+            <ul>
+                <li>Provide core features: Expense management using the 6 Jars Method.</li>
+                <li>Synchronize data across your devices (if enabled).</li>
+                <li>Provide intelligent financial analysis (via integrated AI).</li>
+                <li>Detect and fix application errors.</li>
+            </ul>
+            <p><strong>We DO NOT sell your personal data to any third parties.</strong></p>
+
+            <h2>3. Device Permissions</h2>
+            <p>To function fully, JarsMaster may request access to:</p>
+            <ul>
+                <li><strong>Internet:</strong> To synchronize data and download resources (Themes, updates).</li>
+                <li><strong>Biometrics (Fingerprint/FaceID):</strong> To provide the secure App Lock feature. Biometric
+                    data is processed only by the OS and we never store it.</li>
+                <li><strong>Storage:</strong> To export Excel/JSON reports or save screenshots upon your request.</li>
+            </ul>
+
+            <h2>4. Data Security</h2>
+            <p>We apply strict security standards:</p>
+            <ul>
+                <li>All data transmitted between your device and Cloud servers is encrypted using HTTPS/TLS protocols.
+                </li>
+                <li>Data on Cloud servers (Google Firebase) is protected by strict Security Rules, ensuring only you
+                    have access to your data.</li>
+                <li>PIN codes and security settings are stored securely on your device.</li>
+            </ul>
+
+            <h2>5. Third-Party Services</h2>
+            <p>The application uses trusted third-party services for operation:</p>
+            <ul>
+                <li><strong>Google Firebase:</strong> User authentication, database storage, and crash analytics.</li>
+                <li><strong>Google AdMob:</strong> Ad serving (in the free version).</li>
+                <li><strong>Google Gemini AI:</strong> Supports financial data analysis (data sent is valid for the
+                    session only and used strictly for analysis).</li>
+            </ul>
+
+            <h2>6. Your Rights</h2>
+            <p>You have full control over your data:</p>
+            <ul>
+                <li><strong>Access & Edit:</strong> You can view and modify all financial data directly within the app.
+                </li>
+                <li><strong>Delete Account:</strong> You can request permanent deletion of your account and all related
+                    data at any time via "Settings > Account > Delete Account" in the app.</li>
+                <li><strong>Disable Sync:</strong> You can choose to use the app in Offline Mode (Data stored only on
+                    device).</li>
+            </ul>
+
+            <h2>7. Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+            <p>
+                📧 Email: <a href="mailto:jarsmaster@gmail.com">jarsmaster@gmail.com</a><br>
+                🌐 Website: <a href="https://nqtlabs.github.io">https://nqtlabs.github.io</a>
+            </p>
+        </article>
+
+        <footer>
+            <p>&copy; 2026 NQTlabs. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
